@@ -1,0 +1,43 @@
+:root {
+    --default-color: #2E2F42;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--default-color);
+    margin: 0;
+    padding:0%;
+}
+.header-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+}
+.header-link span {
+    color: #4D5AE5;
+}
+.link-items {
+    padding-inline-start: 0px;
+    margin: 0;
+
+}
+.contacts {
+    padding-inline-start: 0px;
+    margin: 0;
+
+}
+.contacts-item{
+    text-decoration: none;
+    list-style-type: none;
+}
+.links {
+    text-decoration: none;
+nav ul {
+    list-style-type: none;
+}
+.key-behaviors ul{
+    list-style-type: none;
+}
+h1 {}
