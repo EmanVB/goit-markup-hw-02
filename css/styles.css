@@ -41,4 +41,13 @@ nav ul {
 .key-behaviors ul{
     list-style-type: none;
 }
-h1 {}
+.service-offer {
+    background-color: #2E2F42;
+}
+h1 {
+    color: white;
+    font-size: 56px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 60px;
+}
