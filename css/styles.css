@@ -15,6 +15,7 @@ body {
     font-family: Raleway;
     font-weight: 800;
     line-height: 1.17;
+    color: var(--default-color);
 }
 .header-link span {
     color: #4D5AE5;
