@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: var(--default-color);
     margin: 0;
     padding:0%;
@@ -23,21 +24,34 @@ body {
     margin: 0;
     color: #434455;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     list-style-type: none;
-
+}
+.link-items .links:hover,
+.link-items .links:focus {
+    color: orange;
+}
+.link-items .links:active {
+    color: red;
 }
 .contacts {
     padding-inline-start: 0px;
     margin: 0;
-
 }
-.contacts-item{
+.contacts-item .links {
     text-decoration: none;
     list-style-type: none;
 }
+.contacts .links:hover,
+.contacts .links:focus {
+    color: orange;
+}
+.contacts .links:active {
+    color: red;
+}
 .links {
     text-decoration: none;
+    color: #434455;
 }
 
 .service-offer {
@@ -55,7 +69,7 @@ h1 {
     color: white;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     background-color: #4D5AE5;
 }
 .key-behaviors-list {
@@ -66,18 +80,18 @@ h1 {
 .key-behaviors-header {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
 }
 .key-behaviors-text {
     color: #434455;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 .services-header {
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
 }
 .service-images {
@@ -89,7 +103,7 @@ h1 {
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
 }
 .team-list {
@@ -99,15 +113,15 @@ h1 {
 }.team-member {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+
 }
 .team-position {
     color: #434455;
     font-size: 16px;
-    line-height: 24px;
 }
 .footer-link{
     text-decoration: none;
+    color: white;
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
@@ -117,9 +131,9 @@ h1 {
     color: #4D5AE5;
 }
 .offer {
-    color: #F4F4FD;
-        font-size: 16px;
-        line-height: 24px;
-} footer {
+    color: white;
+    font-size: 16px;
+} 
+footer {
     background-color: #2E2F42;
 }
