@@ -28,6 +28,7 @@ body {
 .order:active {
     background-color: red;
     color: yellowgreen;
+    cursor: pointer;
 }
 .link-items {
     padding-inline-start: 0px;
@@ -69,7 +70,7 @@ body {
 .service-offer {
     background-color: #2E2F42;
 }
-h1 {
+.service-promise {
     color: white;
     font-size: 56px;
     font-weight: 700;
