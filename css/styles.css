@@ -1,7 +1,6 @@
 :root {
     --default-color: #2E2F42;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -55,6 +54,7 @@ body {
 .contacts-item .links {
     text-decoration: none;
     list-style-type: none;
+    color: #434455;
 }
 .contacts .links:hover,
 .contacts .links:focus {
@@ -65,9 +65,8 @@ body {
 }
 .links {
     text-decoration: none;
-    color: #434455;
+    color: var(--default-color);
 }
-
 .service-offer {
     background-color: #2E2F42;
 }
@@ -127,7 +126,6 @@ body {
 }.team-member {
     font-size: 20px;
     font-weight: 500;
-
 }
 .team-position {
     color: #434455;
