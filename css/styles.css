@@ -19,12 +19,24 @@ body {
 .header-link span {
     color: #4D5AE5;
 }
+.header-link:hover,
+.header-link:active {
+    background-color: red;
+    color: yellowgreen;
+}
+.order:hover,
+.order:active {
+    background-color: red;
+    color: yellowgreen;
+}
 .link-items {
     padding-inline-start: 0px;
     margin: 0;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    list-style-type: none;
+    text-decoration: none;
     list-style-type: none;
 }
 .link-items .links:hover,
@@ -136,4 +148,9 @@ h1 {
 } 
 footer {
     background-color: #2E2F42;
+}
+footer .footer-link:hover,
+footer .footer-link:active{
+    background-color: red;
+    color: yellowgreen;
 }
