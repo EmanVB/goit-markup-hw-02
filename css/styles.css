@@ -21,6 +21,10 @@ body {
 .link-items {
     padding-inline-start: 0px;
     margin: 0;
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
 
 }
 .contacts {
@@ -35,19 +39,13 @@ body {
 .links {
     text-decoration: none;
 }
-nav ul {
-    list-style-type: none;
-}
-.key-behaviors ul{
-    list-style-type: none;
-}
+
 .service-offer {
     background-color: #2E2F42;
 }
 h1 {
     color: white;
     font-size: 56px;
-    font-family: Roboto;
     font-weight: 700;
     line-height: 60px;
     text-align: center;
@@ -56,8 +54,72 @@ h1 {
 .order {
     color: white;
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 500;
     line-height: 24px;
     background-color: #4D5AE5;
+}
+.key-behaviors-list {
+    padding-inline-start: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+.key-behaviors-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.key-behaviors-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+}
+.services-header {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 40px;
+    text-align: center;
+}
+.service-images {
+    padding-inline-start: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+.team-header {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 40px;
+    text-align: center;
+}
+.team-list {
+    padding-inline-start: 0px;
+    margin: 0;
+    list-style-type: none;
+}.team-member {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.team-position {
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+}
+.footer-link span{
+    color: #4D5AE5;
+}
+.offer {
+    color: #F4F4FD;
+        font-size: 16px;
+        line-height: 24px;
+} footer {
+    background-color: #2E2F42;
 }
